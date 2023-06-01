@@ -1,73 +1,175 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lucas Mahias Belini</title>
-    <link ref="stylesheet" src="css/main.css">
-    <style>
-        .texto-vermelho {
-            color: rgb(0, 81, 255);
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+  <title>Blog Template · Bootstrap v4.6- testee</title>
 
-        p {
-            color: rgb(0, 255, 234);
-            
-        }
-        
-        .text-center {
-            text-align: center;
-        }
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/blog/">
 
-        #nome-aluno {
-            color: rgb(192, 6, 161)
-        }
-    </style>
 
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1 class="text-center" id="nome-aluno"> lucas mathias belini</h1>
-    
-    <h2 style="color:rgb(4, 0, 255); text-align: center;">Quem sou eu?</h2>
-    
-    <p class="texto-vermelho text-center">𝓸𝓵𝓪 𝓶𝓮𝓾 𝓶𝓮𝓾 𝓷𝓸𝓶𝓮 𝓮 𝓛𝓾𝓬𝓪𝓼 𝓜𝓪𝓽𝓱𝓲𝓪𝓼 𝓑𝓮𝓵𝓲𝓷𝓲 𝓽𝓮𝓷𝓱𝓸 16
-        𝓪𝓷𝓸𝓼 𝓮 𝓺𝓾𝓮𝓻𝓸 𝓶𝓮 𝓯𝓸𝓻𝓶𝓪𝓻 𝓮 𝓽𝓮𝓬𝓷𝓲𝓬𝓸 𝓭𝓮 𝓭𝓮𝓼𝓮𝓷𝓿𝓸𝓵𝓿𝓲𝓶𝓮𝓷𝓽𝓸 𝓭𝓮
-        𝓼𝓲𝓼𝓽𝓮𝓶𝓪</p>
+  <div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+          <a class="text-muted" href="#">Subscribe</a>
+        </div>
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="#">Mainstruck:D</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <a class="text-muted" href="#" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+              viewBox="0 0 24 24" focusable="false">
+              <title>Search</title>
+              <circle cx="10.5" cy="10.5" r="7.5" />
+              <path d="M21 21l-5.2-5.2" />
+            </svg>
+          </a>
+          <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-between">
+        <a class="p-2 text-muted" href="carousel/index.html">tenis</a>
+        <a class="p-2 text-muted" href="https://github.com/lucasmathiasbelini/entrega-booststrap">meus projetos</a>
+        <a class="p-2 text-muted" href="#">Marca</a>
+      </nav>
+    </div>
+
+    <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+      <div class="col-md-12 px-0">
+        <h1 class="display-4 font-italic text-center">produtos em promoção!!</h1>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <h3 class="mb-0">Tenis</h3>
+              <p class="card-text mb-auto">Tenis Lakai até a numeração 44.</p>
+
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="img/kyonosuke.jpg" class="bd-placeholder-img" width="200" height="250" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">moletons erased</strong>
+
+              <p class="mb-auto">Moletons de marcas nacionais.</p>
+
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="img/blz.webp" class="bd-placeholder-img" width="200" height="250" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8 blog-main">
+
+
+
+          <div class="blog-post">
+            <h2 class="blog-post-title">mainstruck historia da loja</h2>
+            <p class="blog-post-meta">January 8, 2023 by <a href="#">Mark</a></p>
+
+            <p> <a href="#">Mainstruck</a>. surgiu como uma loja digital para skatistas estilosos que andam no drip!!!!
+            </p>
+            <hr>
+
+            <blockquote>
+
+          </div><!-- /.blog-post -->
+        </div>
+      </div>
+      <div class="container">
         
-        <h3 classe="text-center" class="texto-vermelho">𝓸 𝓺𝓾𝓮 𝓸 𝓵𝓾𝓬𝓪𝓼 𝓰𝓸𝓼𝓽𝓪 𝓭𝓮 𝓯𝓪𝔃𝓮𝓻?</h3>
-    
-        <p class="texto-vermelho">𝓔𝓾 𝓪𝓭𝓸𝓻𝓸 𝓪𝓷𝓭𝓪 𝓭 𝓼𝓴𝓪𝓽𝓮 𝓼𝓸𝓾 𝓾𝓶 𝓼𝓴𝓪𝓲𝓼𝓽𝓪 𝓪𝓶𝓪𝓭𝓸𝓻
-        𝓽𝓮𝓷𝓽𝓪𝓷𝓭𝓸 𝓼𝓮𝓻 𝓹𝓻𝓸𝓯𝓲𝓼𝓼𝓲𝓸𝓷𝓪𝓵 𝓼𝓸𝓾 𝓰𝓪𝓶𝓮𝓻 𝓷𝓪𝓼 𝓱𝓸𝓻𝓪𝓼 𝓿𝓪𝓰𝓪𝓼 𝓳𝓸𝓰𝓸
-        𝓵𝓸𝓵,𝓬𝓼𝓰𝓸,𝓽𝓯2</p>
-    
-        <centerimg src="img/imagen.jpg" alt=""center>
+        <div class="row">
+          <div class="col-4" >
+            <h2 class="display-6 font-italic text-center">confira nossos moletons ;D</h2>
+            <img  class="img-thumbnail " src="img/blz.webp" width="200px" height="200px" alt="full.jpg">
+          </div>
+
+          <div class="col-4">
+            <h2 class="display-6 font-italic text-center">Camiseta Erased</h2>
+            <img src="img/full.jpg" class="img-thumbnail " width="200px" height="200px" alt="full.jpg">
+          </div>
+
+          <div class="col-4">
+            <p class="display-6 font-italic text-center"></p>
+            <h3 class="display-6 font-italic text-center">Moleton Joker Arabic Sufgang</h3>
+            <img src="img/joker arabic.jpeg" width="200px" height="200px" alt="full.jpg">
+          </div>
+
+        </div>
+      </div>
 
 
-    <img src="img/ihu.jpg" alt="">
-    <img src="img/Gragas_Render.webp" alt="">
-    <h4 class="text-center">Equipe 5</h4>
-    <ul>
-       
-    <li style="color:blueviolet;">Lucas Mathias Belini</li>
-</ul>
+    </main>
 
-<ul>
-    <li style="color:blueviolet;">Caio Matheus Brenan de Oliveira</li>
-</ul>
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+          href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+  </div>
 
-<ul>
-    <li style="color:blueviolet;">Maria Eduarda</li>
-</ul>
 
-<ul>
-    <li style="color:blueviolet;">Renato Henrique Domingues</li>
-</ul>
+
+
+
 
 </body>
-<script src="js/main.js"></script>
 
 </html>
